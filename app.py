@@ -84,9 +84,3 @@ if image_file is not None:
                         
                 except Exception as e:
                     st.error(f"Terjadi kesalahan saat memproses gambar: {e}")
-
-print("\n=== File app.py berhasil dibuat! ===")
-
-# SCRIPT OTOMATIS UNTUK DOWNLOAD FILE LANGSUNG KE KOMPUTER KAMU
-from google.colab import files
-files.download('app.py')
